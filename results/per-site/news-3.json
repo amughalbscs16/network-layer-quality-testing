@@ -1,0 +1,35 @@
+{
+  "site_id": "news-3",
+  "site_name": "News-3",
+  "category": "news",
+  "architecture": "React SSR + heavy JS",
+  "status": "success",
+  "har_files_analyzed": 12,
+  "summary": {
+    "avg_total_requests": 971.5,
+    "avg_api_requests": 56.5,
+    "avg_total_bytes_kb": 25816.5,
+    "quality_score": 70.9
+  },
+  "dimension_scores": {
+    "redundant_calls": 20.0,
+    "n_plus_1": 100.0,
+    "sequential_waterfalls": 99.1,
+    "missing_cache_headers": 62.6,
+    "oversized_payloads": 85.0,
+    "missing_compression": 99.4,
+    "third_party_overhead": 39.2,
+    "error_rate": 100.0
+  },
+  "anti_pattern_averages": {
+    "redundant_excess_calls": 8.2,
+    "n_plus_1_patterns": 0.0,
+    "missing_cache_pct": 37.4,
+    "oversized_payloads": 1.0,
+    "uncompressed_responses": 3.5,
+    "third_party_pct": 60.8,
+    "error_rate_pct": 0.0
+  },
+  "analyzed_at": "2026-02-08T00:23:39.430125",
+  "captures_analyzed": 12
+}

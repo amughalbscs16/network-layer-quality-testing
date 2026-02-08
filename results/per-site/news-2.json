@@ -1,0 +1,35 @@
+{
+  "site_id": "news-2",
+  "site_name": "News-2",
+  "category": "news",
+  "architecture": "heavy client-side rendering",
+  "status": "success",
+  "har_files_analyzed": 12,
+  "summary": {
+    "avg_total_requests": 101.0,
+    "avg_api_requests": 58.8,
+    "avg_total_bytes_kb": 11311.2,
+    "quality_score": 69.6
+  },
+  "dimension_scores": {
+    "redundant_calls": 91.7,
+    "n_plus_1": 100.0,
+    "sequential_waterfalls": 18.7,
+    "missing_cache_headers": 96.9,
+    "oversized_payloads": 50.0,
+    "missing_compression": 0.0,
+    "third_party_overhead": 79.9,
+    "error_rate": 100.0
+  },
+  "anti_pattern_averages": {
+    "redundant_excess_calls": 0.8,
+    "n_plus_1_patterns": 0.0,
+    "missing_cache_pct": 3.1,
+    "oversized_payloads": 3.5,
+    "uncompressed_responses": 43.0,
+    "third_party_pct": 20.1,
+    "error_rate_pct": 0.0
+  },
+  "analyzed_at": "2026-02-08T00:23:37.644736",
+  "captures_analyzed": 12
+}

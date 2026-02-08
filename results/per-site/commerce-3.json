@@ -1,0 +1,35 @@
+{
+  "site_id": "commerce-3",
+  "site_name": "Commerce-3",
+  "category": "e-commerce",
+  "architecture": "React SPA + SSR",
+  "status": "success",
+  "har_files_analyzed": 12,
+  "summary": {
+    "avg_total_requests": 433.2,
+    "avg_api_requests": 62.3,
+    "avg_total_bytes_kb": 4934.2,
+    "quality_score": 60.8
+  },
+  "dimension_scores": {
+    "redundant_calls": 0.0,
+    "n_plus_1": 100.0,
+    "sequential_waterfalls": 74.2,
+    "missing_cache_headers": 41.2,
+    "oversized_payloads": 100.0,
+    "missing_compression": 99.6,
+    "third_party_overhead": 15.0,
+    "error_rate": 100.0
+  },
+  "anti_pattern_averages": {
+    "redundant_excess_calls": 26.2,
+    "n_plus_1_patterns": 0.0,
+    "missing_cache_pct": 58.8,
+    "oversized_payloads": 0.0,
+    "uncompressed_responses": 2.0,
+    "third_party_pct": 85.0,
+    "error_rate_pct": 0.0
+  },
+  "analyzed_at": "2026-02-08T00:23:39.795722",
+  "captures_analyzed": 12
+}

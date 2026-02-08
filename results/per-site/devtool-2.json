@@ -1,0 +1,35 @@
+{
+  "site_id": "devtool-2",
+  "site_name": "DevTool-2",
+  "category": "developer-tools",
+  "architecture": "server-rendered + jQuery",
+  "status": "partial",
+  "har_files_analyzed": 12,
+  "summary": {
+    "avg_total_requests": 349.3,
+    "avg_api_requests": 25.5,
+    "avg_total_bytes_kb": 2430.8,
+    "quality_score": 78.7
+  },
+  "dimension_scores": {
+    "redundant_calls": 61.7,
+    "n_plus_1": 100.0,
+    "sequential_waterfalls": 99.6,
+    "missing_cache_headers": 75.6,
+    "oversized_payloads": 100.0,
+    "missing_compression": 99.8,
+    "third_party_overhead": 21.0,
+    "error_rate": 100.0
+  },
+  "anti_pattern_averages": {
+    "redundant_excess_calls": 3.8,
+    "n_plus_1_patterns": 0.0,
+    "missing_cache_pct": 24.4,
+    "oversized_payloads": 0.0,
+    "uncompressed_responses": 0.7,
+    "third_party_pct": 79.0,
+    "error_rate_pct": 0.0
+  },
+  "analyzed_at": "2026-02-08T00:23:39.552593",
+  "captures_analyzed": 12
+}

@@ -1,0 +1,24 @@
+# Node
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# HAR files (large, not tracked in Git)
+har-files/
+
+# Temp
+*.tmp

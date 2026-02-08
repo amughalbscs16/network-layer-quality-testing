@@ -1,0 +1,35 @@
+{
+  "site_id": "devblog-1",
+  "site_name": "DevBlog-1",
+  "category": "developer-blog",
+  "architecture": "Rails + Preact (Forem)",
+  "status": "success",
+  "har_files_analyzed": 12,
+  "summary": {
+    "avg_total_requests": 62.7,
+    "avg_api_requests": 5.2,
+    "avg_total_bytes_kb": 1050.8,
+    "quality_score": 95.4
+  },
+  "dimension_scores": {
+    "redundant_calls": 88.3,
+    "n_plus_1": 100.0,
+    "sequential_waterfalls": 95.8,
+    "missing_cache_headers": 100.0,
+    "oversized_payloads": 100.0,
+    "missing_compression": 99.9,
+    "third_party_overhead": 95.0,
+    "error_rate": 83.3
+  },
+  "anti_pattern_averages": {
+    "redundant_excess_calls": 1.2,
+    "n_plus_1_patterns": 0.0,
+    "missing_cache_pct": 0.0,
+    "oversized_payloads": 0.0,
+    "uncompressed_responses": 0.3,
+    "third_party_pct": 5.0,
+    "error_rate_pct": 4.2
+  },
+  "analyzed_at": "2026-02-08T00:23:37.682737",
+  "captures_analyzed": 12
+}

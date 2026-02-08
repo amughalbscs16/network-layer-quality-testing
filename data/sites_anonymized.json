@@ -1,0 +1,277 @@
+{
+  "metadata": {
+    "description": "30 diverse production websites for API call quality audit. Site identities anonymized to protect reputations.",
+    "selection_criteria": "No login required, diverse categories/architectures, publicly accessible, Similarweb Top 500 in category",
+    "capture_date": "2026-02-07",
+    "runs_per_page": 3,
+    "anonymization_note": "Real site names and URLs are redacted. Category-based pseudonyms (e.g., News-1, Commerce-1) are used throughout all published results."
+  },
+  "analyzed_sites": [
+    {
+      "id": "reference-1",
+      "name": "Reference-1",
+      "category": "reference",
+      "architecture": "server-rendered, minimal JS",
+      "pages": [
+        { "label": "article", "url": "[REDACTED]" },
+        { "label": "search-results", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "forum-1",
+      "name": "Forum-1",
+      "category": "forum",
+      "architecture": "minimal server-rendered",
+      "pages": [
+        { "label": "frontpage", "url": "[REDACTED]" },
+        { "label": "comments", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "devtool-1",
+      "name": "DevTool-1",
+      "category": "developer-tools",
+      "architecture": "server-rendered + Turbo/Stimulus",
+      "pages": [
+        { "label": "repository", "url": "[REDACTED]" },
+        { "label": "pull-requests", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "devtool-2",
+      "name": "DevTool-2",
+      "category": "developer-tools",
+      "architecture": "server-rendered + jQuery",
+      "pages": [
+        { "label": "question", "url": "[REDACTED]" },
+        { "label": "search-results", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "classifieds-1",
+      "name": "Classifieds-1",
+      "category": "classifieds",
+      "architecture": "minimal server-rendered HTML",
+      "pages": [
+        { "label": "homepage", "url": "[REDACTED]" },
+        { "label": "listings", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "government-1",
+      "name": "Government-1",
+      "category": "government",
+      "architecture": "server-rendered, progressive enhancement",
+      "pages": [
+        { "label": "homepage", "url": "[REDACTED]" },
+        { "label": "service-page", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "news-1",
+      "name": "News-1",
+      "category": "news",
+      "architecture": "server-rendered + hydration",
+      "pages": [
+        { "label": "homepage", "url": "[REDACTED]" },
+        { "label": "section", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "news-2",
+      "name": "News-2",
+      "category": "news",
+      "architecture": "heavy client-side rendering",
+      "pages": [
+        { "label": "homepage", "url": "[REDACTED]" },
+        { "label": "section", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "news-3",
+      "name": "News-3",
+      "category": "news",
+      "architecture": "React SSR + heavy JS",
+      "pages": [
+        { "label": "homepage", "url": "[REDACTED]" },
+        { "label": "section", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "entertainment-1",
+      "name": "Entertainment-1",
+      "category": "entertainment",
+      "architecture": "Next.js SSR",
+      "pages": [
+        { "label": "homepage", "url": "[REDACTED]" },
+        { "label": "chart", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "commerce-1",
+      "name": "Commerce-1",
+      "category": "e-commerce",
+      "architecture": "server-rendered + heavy JS hydration",
+      "pages": [
+        { "label": "homepage", "url": "[REDACTED]" },
+        { "label": "search-results", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "commerce-2",
+      "name": "Commerce-2",
+      "category": "e-commerce",
+      "architecture": "server-rendered + Marko.js",
+      "pages": [
+        { "label": "homepage", "url": "[REDACTED]" },
+        { "label": "search-results", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "commerce-3",
+      "name": "Commerce-3",
+      "category": "e-commerce",
+      "architecture": "React SPA + SSR",
+      "pages": [
+        { "label": "homepage", "url": "[REDACTED]" },
+        { "label": "search-results", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "travel-1",
+      "name": "Travel-1",
+      "category": "travel",
+      "architecture": "server-rendered + heavy JS",
+      "pages": [
+        { "label": "homepage", "url": "[REDACTED]" },
+        { "label": "search-results", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "travel-2",
+      "name": "Travel-2",
+      "category": "travel",
+      "architecture": "React SSR + client hydration",
+      "pages": [
+        { "label": "homepage", "url": "[REDACTED]" },
+        { "label": "search-results", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "utility-1",
+      "name": "Utility-1",
+      "category": "utility",
+      "architecture": "heavy ads + API-driven",
+      "pages": [
+        { "label": "homepage", "url": "[REDACTED]" },
+        { "label": "forecast", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "reference-2",
+      "name": "Reference-2",
+      "category": "reference",
+      "architecture": "server-rendered, legacy",
+      "pages": [
+        { "label": "homepage", "url": "[REDACTED]" },
+        { "label": "search-results", "url": "[REDACTED]" }
+      ]
+    },
+    {
+      "id": "devblog-1",
+      "name": "DevBlog-1",
+      "category": "developer-blog",
+      "architecture": "Rails + Preact (Forem)",
+      "pages": [
+        { "label": "homepage", "url": "[REDACTED]" },
+        { "label": "tag-page", "url": "[REDACTED]" }
+      ]
+    }
+  ],
+  "excluded_sites": [
+    {
+      "id": "socialmedia-1",
+      "name": "SocialMedia-1",
+      "category": "social-media",
+      "reason": "blocked (HTTP 403)",
+      "architecture": "React SPA"
+    },
+    {
+      "id": "socialmedia-2",
+      "name": "SocialMedia-2",
+      "category": "social-media",
+      "reason": "blocked (HTTP 403)",
+      "architecture": "server-rendered, minimal JS"
+    },
+    {
+      "id": "commerce-4",
+      "name": "Commerce-4",
+      "category": "e-commerce-marketplace",
+      "reason": "blocked (HTTP 403)",
+      "architecture": "server-rendered + React hydration"
+    },
+    {
+      "id": "reviews-1",
+      "name": "Reviews-1",
+      "category": "reviews",
+      "reason": "blocked (HTTP 403)",
+      "architecture": "React SSR"
+    },
+    {
+      "id": "realestate-1",
+      "name": "RealEstate-1",
+      "category": "real-estate",
+      "reason": "blocked (HTTP 403)",
+      "architecture": "React SSR + GraphQL"
+    },
+    {
+      "id": "commerce-5",
+      "name": "Commerce-5",
+      "category": "e-commerce",
+      "reason": "timeout (>90s)",
+      "architecture": "React SSR"
+    },
+    {
+      "id": "publishing-1",
+      "name": "Publishing-1",
+      "category": "publishing",
+      "reason": "timeout (>90s)",
+      "architecture": "React SPA"
+    },
+    {
+      "id": "socialmedia-3",
+      "name": "SocialMedia-3",
+      "category": "social-media-visual",
+      "reason": "timeout (>90s)",
+      "architecture": "React SPA, image-heavy"
+    },
+    {
+      "id": "news-4",
+      "name": "News-4",
+      "category": "news-public",
+      "reason": "timeout (>90s)",
+      "architecture": "server-rendered + minimal JS"
+    },
+    {
+      "id": "technews-1",
+      "name": "TechNews-1",
+      "category": "tech-news",
+      "reason": "timeout (>90s)",
+      "architecture": "WordPress + heavy JS"
+    },
+    {
+      "id": "sports-1",
+      "name": "Sports-1",
+      "category": "sports",
+      "reason": "timeout (>90s)",
+      "architecture": "React SSR + heavy ads"
+    },
+    {
+      "id": "news-5",
+      "name": "News-5",
+      "category": "news",
+      "reason": "HTTP 401 paywall redirect",
+      "architecture": "Next.js SSR"
+    }
+  ]
+}

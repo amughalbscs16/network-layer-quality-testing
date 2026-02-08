@@ -1,0 +1,12 @@
+Metric,Mean,Median,Std Dev,Min,Max
+Quality Score,76.9,74.8,15.4,56.8,100.0
+Avg Requests,475.4,240.0,682.9,6.0,2683.7
+Avg API Calls,48.9,34.5,60.7,0.0,243.7
+Page Size (KB),5658.1,4520.8,6224.3,12.7,25816.5
+Redundant Calls,12.4,2.6,19.5,0.0,73.5
+N+1 Patterns,0.0,0.0,0.1,0.0,0.3
+Missing Cache %,24.7,24.3,25.3,0.0,81.9
+Oversized,0.6,0.0,0.9,0.0,3.5
+Uncompressed,5.1,1.1,10.1,0.0,43.0
+3rd Party %,53.8,69.1,40.0,0.0,98.7
+Error Rate %,0.5,0.0,1.2,0.0,4.2

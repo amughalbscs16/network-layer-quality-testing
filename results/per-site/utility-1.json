@@ -1,0 +1,35 @@
+{
+  "site_id": "utility-1",
+  "site_name": "Utility-1",
+  "category": "utility",
+  "architecture": "heavy ads + API-driven",
+  "status": "success",
+  "har_files_analyzed": 12,
+  "summary": {
+    "avg_total_requests": 2683.7,
+    "avg_api_requests": 243.7,
+    "avg_total_bytes_kb": 11274.9,
+    "quality_score": 59.9
+  },
+  "dimension_scores": {
+    "redundant_calls": 0.0,
+    "n_plus_1": 93.3,
+    "sequential_waterfalls": 83.7,
+    "missing_cache_headers": 61.0,
+    "oversized_payloads": 90.0,
+    "missing_compression": 94.1,
+    "third_party_overhead": 3.3,
+    "error_rate": 96.8
+  },
+  "anti_pattern_averages": {
+    "redundant_excess_calls": 73.5,
+    "n_plus_1_patterns": 0.3,
+    "missing_cache_pct": 39.0,
+    "oversized_payloads": 0.7,
+    "uncompressed_responses": 9.2,
+    "third_party_pct": 96.7,
+    "error_rate_pct": 0.7
+  },
+  "analyzed_at": "2026-02-08T00:23:41.656033",
+  "captures_analyzed": 12
+}

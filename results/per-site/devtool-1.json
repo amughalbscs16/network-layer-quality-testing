@@ -1,0 +1,35 @@
+{
+  "site_id": "devtool-1",
+  "site_name": "DevTool-1",
+  "category": "developer-tools",
+  "architecture": "server-rendered + Turbo/Stimulus",
+  "status": "success",
+  "har_files_analyzed": 12,
+  "summary": {
+    "avg_total_requests": 138.5,
+    "avg_api_requests": 4.0,
+    "avg_total_bytes_kb": 1544.9,
+    "quality_score": 85.4
+  },
+  "dimension_scores": {
+    "redundant_calls": 100.0,
+    "n_plus_1": 100.0,
+    "sequential_waterfalls": 95.9,
+    "missing_cache_headers": 100.0,
+    "oversized_payloads": 100.0,
+    "missing_compression": 100.0,
+    "third_party_overhead": 5.6,
+    "error_rate": 100.0
+  },
+  "anti_pattern_averages": {
+    "redundant_excess_calls": 0.0,
+    "n_plus_1_patterns": 0.0,
+    "missing_cache_pct": 0.0,
+    "oversized_payloads": 0.0,
+    "uncompressed_responses": 0.0,
+    "third_party_pct": 94.3,
+    "error_rate_pct": 0.0
+  },
+  "analyzed_at": "2026-02-08T00:23:37.871210",
+  "captures_analyzed": 12
+}

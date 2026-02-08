@@ -1,0 +1,35 @@
+{
+  "site_id": "forum-1",
+  "site_name": "Forum-1",
+  "category": "forum",
+  "architecture": "minimal server-rendered",
+  "status": "success",
+  "har_files_analyzed": 12,
+  "summary": {
+    "avg_total_requests": 6.0,
+    "avg_api_requests": 0.0,
+    "avg_total_bytes_kb": 12.7,
+    "quality_score": 100.0
+  },
+  "dimension_scores": {
+    "redundant_calls": 100.0,
+    "n_plus_1": 100.0,
+    "sequential_waterfalls": 100.0,
+    "missing_cache_headers": 100.0,
+    "oversized_payloads": 100.0,
+    "missing_compression": 100.0,
+    "third_party_overhead": 100.0,
+    "error_rate": 100.0
+  },
+  "anti_pattern_averages": {
+    "redundant_excess_calls": 0.0,
+    "n_plus_1_patterns": 0.0,
+    "missing_cache_pct": 0.0,
+    "oversized_payloads": 0.0,
+    "uncompressed_responses": 0.0,
+    "third_party_pct": 0.0,
+    "error_rate_pct": 0.0
+  },
+  "analyzed_at": "2026-02-08T00:23:37.879209",
+  "captures_analyzed": 12
+}

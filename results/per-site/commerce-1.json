@@ -1,0 +1,35 @@
+{
+  "site_id": "commerce-1",
+  "site_name": "Commerce-1",
+  "category": "e-commerce",
+  "architecture": "server-rendered + heavy JS hydration",
+  "status": "success",
+  "har_files_analyzed": 12,
+  "summary": {
+    "avg_total_requests": 426.2,
+    "avg_api_requests": 36.3,
+    "avg_total_bytes_kb": 5936.5,
+    "quality_score": 65.3
+  },
+  "dimension_scores": {
+    "redundant_calls": 3.3,
+    "n_plus_1": 100.0,
+    "sequential_waterfalls": 82.2,
+    "missing_cache_headers": 18.1,
+    "oversized_payloads": 100.0,
+    "missing_compression": 98.9,
+    "third_party_overhead": 68.8,
+    "error_rate": 86.2
+  },
+  "anti_pattern_averages": {
+    "redundant_excess_calls": 10.8,
+    "n_plus_1_patterns": 0.0,
+    "missing_cache_pct": 81.9,
+    "oversized_payloads": 0.0,
+    "uncompressed_responses": 1.0,
+    "third_party_pct": 31.2,
+    "error_rate_pct": 2.8
+  },
+  "analyzed_at": "2026-02-08T00:23:37.116758",
+  "captures_analyzed": 12
+}
