@@ -25,23 +25,14 @@ We present an automated software testing framework that captures and analyzes HT
 ├── validate.py             # Independent data validation (8 automated checks)
 ├── data/
 │   └── sites_anonymized.json   # Website corpus metadata (URLs redacted)
-├── results/
-│   ├── site_scores.csv         # Quality scores for all 18 sites
-│   ├── anti_patterns.csv       # Per-capture anti-pattern data
-│   ├── summary_stats.csv       # Aggregate statistics
-│   └── per-site/               # Detailed JSON reports per site
-│       ├── news-1.json
-│       ├── commerce-1.json
-│       └── ... (18 files)
-└── paper/
-    ├── main.tex                # Paper LaTeX source
-    └── figures/                # All figures (PNG + PDF)
-        ├── fig1_quality_scores.*
-        ├── fig2_antipattern_heatmap.*
-        ├── fig3_category_comparison.*
-        ├── fig4_requests_vs_quality.*
-        ├── fig5_thirdparty_breakdown.*
-        └── fig6_best_vs_worst.*
+└── results/
+    ├── site_scores.csv         # Quality scores for all 18 sites
+    ├── anti_patterns.csv       # Per-capture anti-pattern data
+    ├── summary_stats.csv       # Aggregate statistics
+    └── per-site/               # Detailed JSON reports per site
+        ├── news-1.json
+        ├── commerce-1.json
+        └── ... (18 files)
 ```
 
 ## Anonymization
