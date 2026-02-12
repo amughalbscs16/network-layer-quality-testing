@@ -86,11 +86,14 @@ python validate.py
 If you use this framework or dataset in your research, please cite:
 
 ```bibtex
-@article{mughal2026network,
-  title={Software Testing at the Network Layer: Automated HTTP API Quality Assessment and Security Analysis of Production Web Applications},
-  author={Mughal, Ali Hassan},
-  journal={arXiv preprint},
-  year={2026}
+@misc{mughal2026softwaretestingnetworklayer,
+      title={Software Testing at the Network Layer: Automated HTTP API Quality Assessment and Security Analysis of Production Web Applications}, 
+      author={Ali Hassaan Mughal and Muhammad Bilal and Noor Fatima},
+      year={2026},
+      eprint={2602.08242},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2602.08242}, 
 }
 ```
 
